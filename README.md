@@ -6,8 +6,9 @@ Processor: Intel® Core™ i5-7200U CPU @ 2.50GHx (4 CPUs);
 Hardisk: Minimum 500GB atau higher;
 Memory: 8192MB RAM;
 
- 
+
 Teknologi SW yang digunakan
+
 Operating System: Windows 10;
 Browser: Mozilla firefox, Google Chrome;
 Documentation: Microsoft Office;
