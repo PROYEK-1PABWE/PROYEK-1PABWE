@@ -22,22 +22,31 @@ Github: https://github.com/PROYEK-1PABWE/PROYEK-1PABWE.github.io
 Fitur :
 1.       Navigasi:
 ·       About us:
-ü  General Information
+ü  Informasi Umum
+ü  Visi & Misi
 ü  Struktur Organisasi
 ü  Dosen&Staf: Data Dosen & Data Staf
 ·       Rencana Akademik:
 ü  Rencana Studi Kurikulum 2019
-ü  Rencana Studi Kurikulum 2020
-ü  Rencana Studi Kurikulum 2021
-·       Mahasiswa dan Alumni
+ü   Profil Lulusan
+ü  Capaian Pembelajaran
+·       Tentang Del
 ·       Feedback
  
 2.       Header:
-Gambar
+Gambar & judul
  
 3.       Content:
-About Informatika
-Prospek Kerja
+Tentang Informatika
+Visi - Misi
+Himpunan Mahasiswa
+Struktur Organisasi
+
+4.Footer:
+Kontak
+Alamat
+Tautan
+
  
 4.       Footer:
 Kontak
