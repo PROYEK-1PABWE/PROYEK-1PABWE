@@ -26,10 +26,14 @@ Fitur :
 ü  Visi & Misi
 ü  Struktur Organisasi
 ü  Dosen&Staf: Data Dosen & Data Staf
+
+
 ·       Rencana Akademik:
 ü  Rencana Studi Kurikulum 2019
 ü   Profil Lulusan
 ü  Capaian Pembelajaran
+
+
 ·       Tentang Del
 ·       Feedback
  
@@ -42,12 +46,9 @@ Visi - Misi
 Himpunan Mahasiswa
 Struktur Organisasi
 
-4.Footer:
+4.       Footer:
 Kontak
 Alamat
 Tautan
 
- 
-4.       Footer:
-Kontak
-Alamat
+
