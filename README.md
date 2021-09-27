@@ -23,18 +23,24 @@ Fitur :
 1.       Navigasi:
 ·       About us:
 ü  Informasi Umum
+
 ü  Visi & Misi
+
 ü  Struktur Organisasi
+
 ü  Dosen&Staf: Data Dosen & Data Staf
 
 
 ·       Rencana Akademik:
 ü  Rencana Studi Kurikulum 2019
+
 ü   Profil Lulusan
+
 ü  Capaian Pembelajaran
 
 
 ·       Tentang Del
+
 ·       Feedback
  
 2.       Header:
@@ -42,13 +48,18 @@ Gambar & judul
  
 3.       Content:
 Tentang Informatika
+
 Visi - Misi
+
 Himpunan Mahasiswa
+
 Struktur Organisasi
 
 4.       Footer:
 Kontak
+
 Alamat
+
 Tautan
 
 
