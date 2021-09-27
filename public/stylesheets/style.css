@@ -1,8 +1,20 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+header {
+  background-image: url(../images/bg-home.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
 }
 
-a {
-  color: #00B7FF;
+header h2 {
+  color: #0079C2;
+  text-shadow: 2px 2px 5px rgba(17, 17, 17, 0.884);
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+a.nav-link {
+  color: #fff !important;
+  text-shadow: 2px 2px 5px rgba(17, 17, 17, 0.884);
 }
