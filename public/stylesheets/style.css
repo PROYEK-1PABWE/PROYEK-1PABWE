@@ -1,10 +1,4 @@
-header {
-  background-image: url(../images/bg-home.jpg);
-  background-position: center;
-  background-size: cover;
-  min-height: 100vh;
-}
-
+/* Header */
 header h2 {
   color: #0079C2;
   text-shadow: 2px 2px 5px rgba(117, 112, 112, 0.801);
@@ -34,3 +28,29 @@ a.nav-link {
   flex-direction: column;
   flex-wrap: nowrap
 }
+
+/* Footer */
+footer {
+  background-color: #0079C2;
+}
+
+/* Content Home */
+.bg-title-1 {
+  background-color: #3279B1;
+}
+.bg-title-2 {
+  background-color: #1E313F;
+}
+.bg-viewmore {
+  background-color: #47156E;
+}
+.bg-visi-home {
+  background-image: url(../images/img-index-2.jpg);
+  background-size: cover;
+}
+.text-justify {
+  text-align: justify;
+}
+
+
+
