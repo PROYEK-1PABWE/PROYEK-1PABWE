@@ -1,4 +1,4 @@
-header {
+.home {
   background-image: url(../images/bg-home.jpg);
   background-position: center;
   background-size: cover;
@@ -33,4 +33,8 @@ a.nav-link {
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
   flex-direction: column;
   flex-wrap: nowrap
+}
+
+.bg-title {
+  background-color: #3279B1;
 }
