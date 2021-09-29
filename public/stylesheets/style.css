@@ -1,3 +1,4 @@
+/* Background Header */
 .home {
   background-image: url(../images/bg-home.jpg);
   background-position: center;
@@ -5,6 +6,7 @@
   min-height: 100vh;
 }
 
+/* Header */
 header h2 {
   color: #0079C2;
   text-shadow: 2px 2px 5px rgba(117, 112, 112, 0.801);
@@ -35,6 +37,8 @@ a.nav-link {
   flex-wrap: nowrap
 }
 
+/* Content Home */
 .bg-title {
   background-color: #3279B1;
 }
+
