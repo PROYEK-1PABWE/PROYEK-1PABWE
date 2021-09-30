@@ -69,4 +69,28 @@ footer {
 
 .text-justify {
   text-align: justify;
+<<<<<<< HEAD
 }
+=======
+}
+
+
+@media screen and (max-width: 992px) {
+  * {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  * {
+    font-size: x-small;
+  }
+}
+
+>>>>>>> 5d15862e759bd5ceb8d44f251b4fc8fa43f820fc
