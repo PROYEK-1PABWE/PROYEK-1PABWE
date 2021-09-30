@@ -7,7 +7,8 @@
     <title>Informatika Del</title>
     <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheets/style.css">
-    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap/font/bootstrap-icons.css">
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- <script type="text/javascript" src="javascripts/react.development.js"></script>
     <script type="text/javascript" src="javascripts/react-dom.development.js"></script>
     <script src="javascripts/browser.min.js"></script>
@@ -16,17 +17,17 @@
      -->
 </head>
 <body>
-    <header>
+    <header class="min-vh-100" style="background-image: url(images/bg-kurikulum.jpg); background-size: cover; background-position: center;">
         <div class="container">
             <div class="row">
                 <div class="col-12 px-5 text-end mt-5">
-                    <a href="index.html"><img src="images/emojione_flag-for-indonesia.png" style="width:30px; height: 30px;" alt=""></a>
-                    <a href="index-eng.html"><img src="images/emojione_flag-for-united-kingdom.png" style="width:30px; height: 30px;" alt=""></a>
+                    <a href="kurikulum.html"><img src="images/emojione_flag-for-indonesia.png" style="width:30px; height: 30px;" alt=""></a>
+                    <a href="kurikulum-eng.html"><img src="images/emojione_flag-for-united-kingdom.png" style="width:30px; height: 30px;" alt=""></a>
                 </div>
                 <img src="images/logo.jpg" alt="" style="width:120px" class="col-12 m-auto">
                 <h2 class="col-12 text-center">Institut Teknologi Del</h2>      
             </div>
-            <nav class="navbar navbar-expand-sm navbar-dark">
+            <nav class="navbar navbar-expand-sm navbar-dark fs-5">
                 <div class="container-fluid">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <!-- <span class="navbar-toggler-icon"></span> -->
@@ -37,7 +38,7 @@
                   <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Beranda</a>
+                            <a class="nav-link" href="../index.html">Beranda</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Tentang Informatika</a>
@@ -52,25 +53,548 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Rencana Akademik</a>
                             <ul class="dropdown-menu bg-dark">
-                              <li><a class="dropdown-item" href="#">Rencana Studi Kurikulum 2019</a></li>
+                              <li><a class="dropdown-item" href="kurikulum.html">Rencana Studi Kurikulum 2019</a></li>
                               <li><a class="dropdown-item" href="#">Profil Lulusan</a></li>
                               <li><a class="dropdown-item" href="#">Capaian Pembelajaran</a></li>
                             </ul>
                         </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Tentang Del</a>
+                        <a class="nav-link" href="https://www.del.ac.id/">Tentang Del</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Feedback</a>
+                        <a class="nav-link" href="feedback.html">Masukan</a>
                       </li>  
                     </ul>
                   </div>
                 </div>
             </nav>
             <div class="py-5"></div>
-            <h2 class="text-white p-5 mt-4">Program Studi Sarjana Informatika</h2>
+            <h2 class="text-white p-5 mt-4">Rencana Studi Kurikulum 2019</h2>
         </div>
     </header>
 
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-5 mt-5">
+            <h3 class=""><i class="bi bi-layout-wtf"></i> Semester I</h3>
+            <hr>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Kode</th>
+                  <th>Nama</th>
+                  <th>SKS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>KUS1102</td>
+                  <td>Pembentukan Karakter Del</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>MAS1101</td>
+                  <td>Matematika Dasar I</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>TIS1101</td>
+                  <td>Inovasi Digital</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>KUS1101</td>
+                  <td>Bahasa Inggris I</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>KUS1001</td>
+                  <td>Penulisan Karya Ilmiah</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>10S1001</td>
+                  <td>Matematika Diskrit</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>FIS1102</td>
+                  <td>Fisika Dasar IB</td>
+                  <td>3</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-md-1"></div>
+          <div class="col-md-5 mt-5">
+            <h3 class=""><i class="bi bi-layout-wtf"></i> Semester II</h3>
+            <hr>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Kode</th>
+                  <th>Nama</th>
+                  <th>SKS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>MAS1201</td>
+                  <td>Matematika Dasar II</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>KUS1201</td>
+                  <td>Bahasa Inggris II</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>KUS1202</td>
+                  <td>Pengantar Rekayasa dan Desain</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>FIS1202</td>
+                  <td>Fisika Dasar IIB</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S1213</td>
+                  <td>Rekayasa Perangkat Lunak</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>10S1201</td>
+                  <td>Dasar Pemograman</td>
+                  <td>4</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-md-1"></div>
+          <div class="col-md-5 mt-5">
+            <h3 class=""><i class="bi bi-layout-wtf"></i> Semester III</h3>
+            <hr>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Kode</th>
+                  <th>Nama</th>
+                  <th>SKS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>KUS3002</td>
+                  <td>Agama dan Etika</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>MAS2001</td>
+                  <td>Probabilitas dan Statistika</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>12S2102</td>
+                  <td>Basis Data</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>11S2110</td>
+                  <td>Pemrograman Berorientasi Objek</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>14S2106</td>
+                  <td>Sistem Digital</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>10S2001</td>
+                  <td>Arsitektur dan Organisasi Komputer</td>
+                  <td>3</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-md-1"></div>
+          <div class="col-md-5 mt-5">
+            <h3 class=""><i class="bi bi-layout-wtf"></i> Semester IV</h3>
+            <hr>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Kode</th>
+                  <th>Nama</th>
+                  <th>SKS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>10S2201</td>
+                  <td>Aljabar Linier</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>10S2202</td>
+                  <td>Jaringan Komputer</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>10S2203</td>
+                  <td>Sistem Operasi</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>10S2102</td>
+                  <td>Algoritma dan Struktur Data</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>11S2206</td>
+                  <td>Logika Informatika</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S2203</td>
+                  <td>Interaksi Manusia Komputer</td>
+                  <td>3</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-md-1"></div>
+          <div class="col-md-5 mt-5">
+            <h3 class=""><i class="bi bi-layout-wtf"></i> Semester V</h3>
+            <hr>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Kode</th>
+                  <th>Nama</th>
+                  <th>SKS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>11S3109</td>
+                  <td>Pengembangan Aplikasi Berbasis Web</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>11S3101</td>
+                  <td>Analisis dan Perancangan Perangkat Lunak</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>10S3109</td>
+                  <td>Kecerdasan Buatan</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S3116</td>
+                  <td>Teori Bahasa Formal dan Automata</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S3112</td>
+                  <td>Pengujian dan Penjaminan Mutu Perangkat Lunak</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S3105</td>
+                  <td>Kriptografi dan Keamanan Informasi</td>
+                  <td>3</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-md-1"></div>
+          <div class="col-md-5 mt-5">
+            <h3 class=""><i class="bi bi-layout-wtf"></i> Semester VI</h3>
+            <hr>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Kode</th>
+                  <th>Nama</th>
+                  <th>SKS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>KUS2001</td>
+                  <td>Bahasa Inggris III</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>11S3204</td>
+                  <td>Keamanan Perangkat Lunak</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S3211</td>
+                  <td>Pengembangan Aplikasi Mobile</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>11S3207</td>
+                  <td>Pembelajaran Mesin</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S3208</td>
+                  <td>Manajemen Proyek Perangkat Lunak</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>13S3215</td>
+                  <td>Sistem Paralel dan Terdistribusi</td>
+                  <td>3</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-md-1"></div>
+          <div class="col-md-5 mt-5">
+            <h3 class=""><i class="bi bi-layout-wtf"></i> Semester VII</h3>
+            <hr>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Kode</th>
+                  <th>Nama</th>
+                  <th>SKS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>11S4190</td>
+                  <td>Kerja Praktik</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S4093</td>
+                  <td>Tugas Akhir 1</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>11S4028</td>
+                  <td>Rekayasa Perangkat Lunak Berbasis Komponen</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S4031</td>
+                  <td>Peretasan Etis dan Pengujian Penetrasi</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S4037</td>
+                  <td>Pemrosesan Bahasa Alami</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S4026</td>
+                  <td>Pengembangan Aplikasi Platform Khusus</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>KUS3051</td>
+                  <td>Studi/Proyek Independen 1</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>KUS3052</td>
+                  <td>Studi/Proyek Independen 2</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>KUS3053</td>
+                  <td>Studi/Proyek Independen 3</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>KUS3054</td>
+                  <td>Studi/Proyek Independen 4</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>KUS3055</td>
+                  <td>Studi/Proyek Independen 5</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>KUS3056</td>
+                  <td>Studi/Proyek Independen 6</td>
+                  <td>6</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-md-1"></div>
+          <div class="col-md-5 mt-5">
+            <h3 class=""><i class="bi bi-layout-wtf"></i> Semester VIII</h3>
+            <hr>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Kode</th>
+                  <th>Nama</th>
+                  <th>SKS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>KUS4101</td>
+                  <td>Pancasila dan Kewarganegaraan</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>TIS3001</td>
+                  <td>Keteknowiraan</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>KUS3001</td>
+                  <td>Analisis Dampak Lingkungan</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>11S4094</td>
+                  <td>Tugas Akhir 2</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>11S4095</td>
+                  <td>Kapita Selekta</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>11S4030</td>
+                  <td>UI/UX Design</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S4025</td>
+                  <td>Pembangunan Aplikasi Berbasis Service</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>31S4201</td>
+                  <td>Etika Keprofesian</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>12S4005</td>
+                  <td>Hukum dan Etika Siber</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>11S4032</td>
+                  <td>Tata Kelola Keamanan Informasi dan Manajemen Risiko</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S4035</td>
+                  <td>Interpretasi dan Pengolahan Citra</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>13S4033</td>
+                  <td>Keamanan Jaringan</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S4036</td>
+                  <td>Pembelajaran Mesin Lanjut</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S4040</td>
+                  <td>Pemodelan dan Simulasi</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S4027</td>
+                  <td>Rekayasa Perangkat Lunak Spesifik Domain</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S4038</td>
+                  <td>Representasi Pengetahuan dan Penalaran</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S4029</td>
+                  <td>Strategi Algoritma</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>11S4071</td>
+                  <td>Studi/Proyek Mandiri 1</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>11S4072</td>
+                  <td>Studi/Proyek Mandiri 2</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>11S4073</td>
+                  <td>Studi/Proyek Mandiri 3</td>
+                  <td>3</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <footer>
+        <div class="container text-white p-5 mt-5">
+          <div class="row">
+            <p class="fs-6 col-4">Institut Teknologi Del <br>
+              Jl. Sisingamangaraja, Sitoluama <br>
+              Laguboti, Toba Samosir <br>
+              Sumatera Utara, Indonesia <br>
+              Kode Pos: 22381 <br>
+              Telp: +62 632 331234 <br>
+              Fax: +62 632 331116 <br>
+            </p>
+  
+            <div class="col-4">
+              <h1 class="fs-5"> TAUTAN</h1>
+              <ul class="list-unstyled d-flex flex-column justify-content-center fs-6">
+                <li><a class="text-decoration-none text-white fs-6" href="../index.html">Beranda</a></li>
+                <li><a class="text-decoration-none text-white fs-6" href="">Tentang Informatika</a></li>
+                <li><a class="text-decoration-none text-white fs-6" href="kurikulum.html">Rencana Akademik</a></li>
+                <li><a class="text-decoration-none text-white fs-6" href="https://www.del.ac.id/">Tentang Del</a></li>
+                <li><a class="text-decoration-none text-white fs-6" href="feedback.html">Masukan</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-4">
+              <h1 class="fs-5">TEMUKAN KAMI</h1>
+              <a href="https://www.instagram.com/himasti_itdel/"><img src="images/akar-icons_instagram-fill.svg" alt="" style="width: 45px;"></a>
+              <a href="https://www.youtube.com/channel/UCi_VutHsvtyaJQ84s9xdSDg"><img src="images/ant-design_youtube-outlined.svg" alt="" style="width: 45px;"></a>
+              <a href="https://web.facebook.com/Institut.Teknologi.Del/about/?ref=page_internal"><img src="images/akar-icons_facebook-fill.svg" alt="" style="width: 45px;"></a>
+            </div>
+  
+            <div class="text-center text-white fs-6 me-5 mt-3">
+              Copyright @
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
