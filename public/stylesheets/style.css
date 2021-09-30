@@ -53,4 +53,21 @@ footer {
 }
 
 
+@media screen and (max-width: 992px) {
+  * {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  * {
+    font-size: x-small;
+  }
+}
 
