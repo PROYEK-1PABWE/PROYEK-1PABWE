@@ -1,5 +1,16 @@
 # PROYEK-1PABWE
 
+Proyek's Team:
+
+Yosia Sihaloho (11S19013)
+
+Montana Gurning (11S19017)
+
+Talenta Maria Sihotang (11S19020)
+
+Trivena Panjaitan (11S19021)
+
+
 Spesifikasi HW yang digunakan
 
 Processor: Intel® Core™ i5-7200U CPU @ 2.50GHx (4 CPUs);
